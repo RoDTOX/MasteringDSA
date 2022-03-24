@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FirstProject.cpp">
+    <ClCompile Include="15.FunctionParameterPassing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

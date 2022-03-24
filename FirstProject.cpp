@@ -2,22 +2,52 @@
 //
 
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
+enum card {no_card, Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, J, Queen, King };
+enum shape {no_shape, Clover=10, Pike=11, Tile=12, Heart=13};
+enum color {no_color, Black, Red};
+
+
+/*struct declaration can also be: (cards_properties becomes global var)
+struct Card
+{
+    int face;
+    int shape;
+    int color;
+    enum shape Z;
+}cards_properties;
+*/
+
+
+
 int main()
 {
-    cout << "Hello World!sdsdsd\n" << endl;
-    cout << "Loll" << endl;
+    //Lesson 11. Pointer to structure
+    /*
+    struct Rectangle
+    {
+        int length;
+        int breadth;
+    };
+
+    struct Rectangle r = { 10,5 };
+    struct Rectangle* p = &r;
+
+    (*p).length = 6;
+    p->length = 4;
+
+    //11.1 All in heap now:
+    struct Rectangle* p;
+    p = (struct Rectangle *)malloc(sizeof(struct Rectangle));
+    p->length = 10;
+    p->breadth = 5;
+    */
+
+    //12. Practice Pointer to structure
+
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
