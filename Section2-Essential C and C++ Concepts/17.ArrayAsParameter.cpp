@@ -16,7 +16,9 @@ using namespace std;
 
 int * fun(int size)    //int * can be replaced by int[], diff. is that we clearly specify we return only int array ps: some compilers don`t accept that
 {
-    return (int*)malloc(sizeof(int) * size);
+    int* p;
+    p = (int*)malloc(sizeof(int) * size);
+    return p;
 }
 
 int main()

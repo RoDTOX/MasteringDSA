@@ -29,7 +29,7 @@ void swap_pbr(int &x, int &y) //pass by reference (c++)
     y = temp;
 }
 
-void fun(int A[], int n)    //A[] is pointer to array and is pass by address parameter; n is pass by value
+void fun(int &A, int n)    //A[] is pointer to array and is pass by address parameter; n is pass by value
 {
     for (int i = 0; i < n; i++)
     {
