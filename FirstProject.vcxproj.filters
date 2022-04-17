@@ -18,5 +18,35 @@
     <ClCompile Include="Section7 - Array ADT\94.ArrayADT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\11.Pointer_To_Structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\13.Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\15.FunctionParameterPassing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\17.ArrayAsParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\19.StructureAsParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\27.CppClassAndConstructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\29.TemplateClasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section4 - Introduction\48.Recursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section6-Arrays\85.IncreasingArraySize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Old\Section6-Arrays\89.RowMajorFormula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

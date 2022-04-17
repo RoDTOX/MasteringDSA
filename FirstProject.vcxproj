@@ -19,6 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\11.Pointer_To_Structure.cpp" />
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\13.Functions.cpp" />
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\15.FunctionParameterPassing.cpp" />
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\17.ArrayAsParameter.cpp" />
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\19.StructureAsParameter.cpp" />
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\27.CppClassAndConstructor.cpp" />
+    <ClCompile Include="Old\Section2-Essential C and C++ Concepts\29.TemplateClasses.cpp" />
+    <ClCompile Include="Old\Section4 - Introduction\48.Recursion.cpp" />
+    <ClCompile Include="Old\Section6-Arrays\85.IncreasingArraySize.cpp" />
+    <ClCompile Include="Old\Section6-Arrays\89.RowMajorFormula.cpp" />
     <ClCompile Include="Section7 - Array ADT\94.ArrayADT.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
