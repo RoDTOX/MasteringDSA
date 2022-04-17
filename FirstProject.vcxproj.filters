@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Section4 - Introduction\48.Recursion.cpp">
+    <ClCompile Include="Section7 - Array ADT\94.ArrayADT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
