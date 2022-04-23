@@ -28,36 +28,38 @@ void Display(struct Array arra)
     }
 }
 
-int main()
-{   
-    struct Array arr = {};
-
+struct Array AddElements()
+{
+    struct Array arr_local = {};
     cout << "Enter size of array: " << endl;
-    cin >> arr.size;
-    arr.A = (int*)malloc(sizeof(int) * arr.size);
+    cin >> arr_local.size;
+    arr_local.A = (int*)malloc(sizeof(int) * arr_local.size);
 
-    cout << "Enter how many elements to use out of " << arr.size << ": " << endl;
-    cin >> arr.length;
-    while (arr.length > arr.size)    {
-        
+    cout << "Enter how many elements to use out of " << arr_local.size << ": " << endl;
+    cin >> arr_local.length;
+    while (arr_local.length > arr_local.size) {
+
 
         cout << "Length of array elements bigger than the declared array size." << endl;
-        cout << "Enter how many elements to use out of " << arr.size << ": " << endl;
-        cin >> arr.length;
-        if (arr.length < arr.size) break;
+        cout << "Enter how many elements to use out of " << arr_local.size << ": " << endl;
+        cin >> arr_local.length;
+        if (arr_local.length < arr_local.size) break;
     }
-    
+
     cout << "Enter value for each desired element: " << endl;
-    for (int i = 0; i < arr.length; i++)
+    for (int i = 0; i < arr_local.length; i++)
     {
-        cin >> arr.A[i];
+        cin >> arr_local.A[i];
     }
+
+    return arr_local;
+}
+
+int main()
+{   
+    struct Array arr = AddElements();
     Display(arr);
-    
 
-    
-
-    
     
     arr.A = NULL;
     free(arr.A);
