@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="108.ArrayGetSetSumAvg.cpp">
+    <ClCompile Include="Old\114.Array_Merging.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
